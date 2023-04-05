@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Todo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap " rel="stylesheet">
+    <link rel="stylesheet" href="todo.css"> 
+  </head>
+  <body>
+    <h1>Todo List App</h1>
+    <div id="container">
+      <input placeholder="Add a task . . ." class="add-task"  id="add" data-helloWord="asdasdas" />
+      <span id="total-tasks" style="color: rgb(135, 41, 223);font-size: 15px;">Total tasks:<span id="tasks-counter">0</span> 
+      <button type="submit" onclick="addTask(addTaskInput.value)" style="margin: auto; width: 200px;margin-left:18.7rem;margin-top: -19px;" id="btn">ADD</button>
+      <ul id="list"> 
+      <div class="headingInDisplay"></div>
+      <!-- <li>
+          <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+          <label for="task1">Buy groceries</label>
+          <img src="bin.svg" class="delete" data-id="12"   />
+        </li>  -->
+      </ul>
+      <div id="note" style="margin-top: 10%; margin-left: 50px;">
+        Note :press Enter key or click ADD button to store tasks   
+          </div>
+    </div>
+    <script src="todo_fetch.js"></script>
+    <!-- <script src="todo.js"></script> -->
+  </body>
+</html>
